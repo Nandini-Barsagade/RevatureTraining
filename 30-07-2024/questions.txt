@@ -1,0 +1,79 @@
+three default strem 
+in out error
+
+what is jvm jdk jre
+
+https://github.com/jasdhiratrevature/TrainingSlides
+
+wrapper classes- classes corresponding to primitive data types
+heap-objects goes
+stack-methods and data goes
+garbage collection
+research in inmupatability
+string buffer and string builder
+equals() and hashcode()
+typecasting - explicit and implicit
+final, finally, finalize
+
+
+
+
+What is Java? / Why Java?
+
+What is JRE / JDK / JVM?
+
+
+Project 0 - Web Application
+ 
+Technologies : Java, SQL, JSP, Servlet, JDBC, HTML, CSS, Javascript
+
+What is an object / class?
+
+How would you compile and execute a Java program?
+
+What is the main method signature? How does the String array parameter get populated?
+
+What is the root class from which every class extends?
+
+What methods are available in the Object class?
+
+If two objects are equal, do they have the same hashcode? If not equal?
+
+What are the primitive data types in Java?
+
+What are the default values for all data types in Java?
+
+What is the difference between String,StringBuilder, andStringBuffer?
+
+What are annotations?
+
+How would you clone an object?
+
+Where are Strings stored?
+
+What is a POJO? What is a bean?
+
+How can you force garbage collection in Java?
+
+What is the difference between == and .equals() ?
+
+Why are strings immutable in Java?
+
+What are the non-access modifiers in Java?
+
+What is the difference between static and final variables?
+
+What data types are supported in switch statements?
+
+How to pass multiple values with a single parameter into a method?
+
+What are enumerations (enums)?
+
+What is the first line of constructor?
+
+How would you make an immutable object?
+
+What is static block?
+
+Is Java pass-by-value or pass-by-reference?
+ 
