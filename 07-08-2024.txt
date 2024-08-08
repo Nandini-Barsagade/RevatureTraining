@@ -1,0 +1,31 @@
+CREATE TABLE customer (
+    customer_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(100),
+    phone VARCHAR(20),
+    address VARCHAR(255),
+    city VARCHAR(100),
+    state VARCHAR(50),
+    zip_code VARCHAR(20)
+);
+
+INSERT INTO customer (customer_id, first_name, last_name, email, phone, address, city, state, zip_code)
+VALUES
+    (1, 'nandini', 'barsagade', 'aabc@example.com', '123-456-7890', '123 Main St', 'Springfield', 'IL', '62701'),
+    (2, 'Jane', 'Smith', 'jane.smith@example.com', '234-567-8901', '456 Elm St', 'Rivertown', 'NY', '12345'),
+    (3, 'Michael', 'Johnson', 'michael.johnson@example.com', '345-678-9012', '789 Oak St', 'Hill Valley', 'CA', '90210');
+
+SELECT * FROM customer;
+
+UPDATE customer
+SET phone = '555-555-5555'
+WHERE customer_id = 1;
+
+DELETE FROM customer
+WHERE customer_id = 3;
+
+SELECT * FROM customer
+WHERE city = 'Springfield';
+ALTER TABLE customer
+ADD COLUMN loyalty_points INT DEFAULT 0;
